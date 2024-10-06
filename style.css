@@ -269,13 +269,13 @@ header {
 /*Section 4*/
 
 .service {
-    margin: 15px 50px;
+    margin: 15px 70px;
 }
 
 .service-items {
     background-color: #0f0f0f;
     border-radius: 5px;
-    padding: 35px 0px;
+    padding: 25px 0px;
     border: 0.5px solid #ffbd39;
     cursor: pointer;
 }
@@ -364,13 +364,20 @@ header {
 
 /*Section 6*/
 
-.progress-bar {
-    background-color: #ffbd39 !important;
+.skill {
+    margin: 15px 100px;
 }
 
-.skill {
-    padding: 1px 2px;
-    margin: 10px 0px;
+.skill-items {
+    background-color: #0f0f0f;
+    border-radius: 5px;
+    padding: 15px 0px;
+    border: 0.5px solid #ffbd39;
+    cursor: pointer;
+}
+
+.skill-items:hover {
+    border: none;
 }
 
 /*Section 6*/
