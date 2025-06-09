@@ -146,6 +146,7 @@ header {
     .greeting p {
         font-size: 1.3em;
     }
+   
 }
 
 
@@ -222,7 +223,6 @@ header {
     object-fit: cover;
     display: block;
 }
-
 
 /*Section 1*/
 
