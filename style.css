@@ -207,7 +207,7 @@ header {
 }
 .circle-wrapper {
     cursor: pointer;
-    width: 70vh  !important;            
+    width: 55vh  !important;            
     aspect-ratio: 1 / 1 !important;      
     overflow: hidden;
     border-radius: 50%;       
@@ -273,8 +273,28 @@ header {
   max-width: 100%;
   height: auto;
 }
+.btn-about {
+    background-color: #ffbd39;
+    color: black;
+    border: none;
+    padding: 5px 18px;
+    border-radius: 15px;
+}
 
-
+.btn-about:hover {
+    box-shadow: 0 0 5px rgba(255, 189, 57, 1),
+        0 0 5px rgba(255, 189, 57, 1),
+        0 0 10px rgba(255, 189, 57, 1);
+    background-color: white;
+    color: #ffbd39;
+}
+@media (max-width: 768px) {
+  .btn-about {
+    background-color: black;
+    color: #ffbd39;
+    
+}
+  }
 
 /*Section 2*/
 
@@ -373,7 +393,7 @@ header {
   text-align: left;
 }
 .timeline-item {
- height: 100px;
+ height: 140px;
 }
 }
 
