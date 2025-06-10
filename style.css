@@ -372,6 +372,9 @@ header {
   .timeline-item.left .timeline-content {
   text-align: left;
 }
+.timeline-item {
+ height: 100px;
+}
 }
 
 
