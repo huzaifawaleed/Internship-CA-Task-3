@@ -1,0 +1,36 @@
+<style>
+  .logo-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+  }
+
+  .logo-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+
+  .logo {
+    padding: 0 20px;
+    font-size: 2rem;
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+</style>
+
+<div class="logo-slider">
+  <div class="logo-track">
+    <div class="logo">🚀</div>
+    <div class="logo">🔥</div>
+    <div class="logo">💻</div>
+    <div class="logo">🎯</div>
+    <!-- duplicate -->
+    <div class="logo">🚀</div>
+    <div class="logo">🔥</div>
+    <div class="logo">💻</div>
+    <div class="logo">🎯</div>
+  </div>
+</div>
