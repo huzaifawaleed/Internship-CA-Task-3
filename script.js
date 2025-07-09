@@ -90,11 +90,22 @@ window.onscroll = function () {
     }
 };
 
+
+
+
+// Bottom to top button
 function scrollToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-// Bottom to to button
+
+// const list = document.getElementById('scrollList');
+//   const clone = list.cloneNode(true);
+//   list.parentNode.appendChild(clone);
+
+
+
+
 
 
 // const allPaths = document.querySelectorAll("path");

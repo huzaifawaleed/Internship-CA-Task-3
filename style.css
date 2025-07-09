@@ -104,7 +104,7 @@ div ul li a:hover {
 
     color: white;
     font-weight: bold;
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
 
     text-shadow: 
     1px 1px #ffbd39 ,
@@ -528,6 +528,63 @@ header {
 /*Section 5*/
 
 /*Section 6*/
+
+
+ /* .skills{
+      margin: 0;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+
+    .scroll-list {
+      width: 500px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .list {
+      display: flex;
+      gap: 1rem;
+      width: fit-content;
+      animation: loop 10s linear infinite;
+    }
+
+    .skill {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 50px;
+      background-color: #ffbd39;
+      padding: 0.7rem 1rem;
+      border-radius: 0.4rem;
+      /* box-shadow:
+        0 0.1rem 0.2rem #ffbd39,
+        0 0.1rem 0.5rem #ffbd39,
+        0 0.1rem 1.5rem #ffbd39; */
+      /* color: black;
+      white-space: nowrap;
+    }
+
+    .fade {
+      position: absolute;
+      background: linear-gradient(90deg, #1a1a1a, transparent 30%, transparent 70%, #1a1a1a);
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    @keyframes loop {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    } */ 
 
 .skill {
     margin: 15px 70px;
