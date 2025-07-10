@@ -66,7 +66,7 @@ header.fixed-navbar {
   z-index: 1030;
 }
 
-svg path {
+.circle-wrapper svg path {
   stroke: white;
   stroke-width: 10px;
   fill: none;
@@ -593,6 +593,12 @@ header {
       color: #ffbd39;    
     }
 
+ a i {
+      font-size: 2rem; 
+      color: #ffbd39;    
+    }
+
+
 
 /* .skill {
     margin: 15px 70px;
@@ -668,6 +674,7 @@ footer {
 
 footer svg {
     margin: 0px 7px;
+    cursor: pointer;
 }
 
 .f-pad {
